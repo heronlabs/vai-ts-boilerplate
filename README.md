@@ -1,3 +1,5 @@
 # vai-ts-boilerplate
 
-Basic repository for initialize project
+Basic boilerplate for Typescript.
+
+Check our CLI: [https://github.com/heronlabs/vai-ts](https://github.com/heronlabs/vai-ts)
