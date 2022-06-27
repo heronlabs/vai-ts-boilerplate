@@ -1,5 +1,5 @@
 {
-  "name": "vai-ts-basic-boilerplate",
+  "name": "@heronlabs/vai-ts-basic-boilerplate",
   "version": "1.0.0",
   "description": "Project created to serve as a boilerplate for basic projects.",
   "engines": {
