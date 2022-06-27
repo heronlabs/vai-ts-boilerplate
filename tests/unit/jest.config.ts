@@ -4,7 +4,10 @@ import baseConfig from '../jest.config';
 
 const config: Config.InitialOptions = {
   ...baseConfig,
-  collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
+  collectCoverageFrom: [
+    '<rootDir>/src/**/*.ts',
+    '!<rootDir>/src/entry-point.ts',
+  ],
   coverageDirectory: 'coverage/unit',
   testMatch: ['<rootDir>/tests/unit/**/*.spec.ts'],
   detectOpenHandles: true,

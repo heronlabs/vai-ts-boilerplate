@@ -1,7 +1,7 @@
 {
-  "name": "vai-ts-boilerplate",
-  "version": "0.0.0",
-  "description": "",
+  "name": "vai-ts-basic-boilerplate",
+  "version": "1.0.0",
+  "description": "Project created to serve as a boilerplate for basic projects.",
   "engines": {
     "node": ">=14.17.6"
   },
