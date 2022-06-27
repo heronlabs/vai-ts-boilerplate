@@ -107,3 +107,6 @@ bin/
 
 # IDE
 .vscode
+
+# OSX
+.DS_Store
