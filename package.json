@@ -6,7 +6,7 @@
     "node": ">=14.17.6"
   },
   "scripts": {
-    "compile": "rm -rf ./bin && tsc --project tsconfig.production.json",
+    "compile": "rm -rf ./bin && tsc --project tsconfig.bin.json",
     "lint:check": "gts lint",
     "lint:fix": "gts fix",
     "test": "jest --runInBand --colors",
