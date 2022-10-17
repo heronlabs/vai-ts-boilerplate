@@ -2,6 +2,7 @@
   "name": "my-project",
   "version": "0.0.1",
   "description": "Project created to serve as a boilerplate for basic projects.",
+  "license": "MIT",
   "engines": {
     "node": ">=14.17.6"
   },
@@ -11,8 +12,7 @@
     "lint:fix": "gts fix",
     "test": "jest --runInBand --colors",
     "test:unit": "yarn test --config=tests/unit/jest.config.ts",
-    "test:integration": "yarn test --config=tests/integration/jest.config.ts",
-    "test:e2e": "yarn test --config=tests/e2e/jest.config.ts"
+    "test:integration": "yarn test --config=tests/integration/jest.config.ts"
   },
   "devDependencies": {
     "@faker-js/faker": "^7.5.0",

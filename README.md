@@ -1,4 +1,4 @@
-# vai-ts-boilerplate
+# vai-ts-basic-boilerplate
 
 Basic boilerplate for Typescript.
 
