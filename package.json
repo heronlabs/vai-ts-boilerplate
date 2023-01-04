@@ -12,7 +12,8 @@
     "lint:fix": "gts fix",
     "test": "jest --runInBand --colors",
     "test:unit": "yarn test --config=tests/unit/jest.config.ts",
-    "test:integration": "yarn test --config=tests/integration/jest.config.ts"
+    "test:integration": "yarn test --config=tests/integration/jest.config.ts",
+    "docker:build:local": "docker build -t my-project-local:latest . -f Dockerfile.local"
   },
   "devDependencies": {
     "@faker-js/faker": "^7.5.0",
