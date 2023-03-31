@@ -1,8 +1,8 @@
 name: Build Basic Stack
 
 on:
-  - push
   - workflow_dispatch
+  - push
 
 jobs:
   pipeline:
