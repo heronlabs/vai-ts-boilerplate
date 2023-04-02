@@ -1,4 +1,4 @@
-name: Build Basic Stack
+name: Build
 
 on:
   - workflow_dispatch
